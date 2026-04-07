@@ -30,7 +30,7 @@ int pop ()
 void display ()
 {
     
-    for (int i = 0; i < top; i++)
+    for (int i = 0; i <= top; i++)
     {
         cout << "top -> " << arr[i] << endl; 
     }
