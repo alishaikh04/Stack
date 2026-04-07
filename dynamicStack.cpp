@@ -29,7 +29,7 @@ void pop ()
     node* current = stack;
 
          stack = stack->next;
-         free(current);
+         delete (current);
          cout << "Value has been poped."  << endl;
          return;
     
