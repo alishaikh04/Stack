@@ -33,7 +33,7 @@ void display ()
     
     for (int i = 0; i <= top; i++)
     {
-        cout << "top -> " << arr[i] << endl; 
+        cout << arr[i] << endl; 
     }
   }
 
