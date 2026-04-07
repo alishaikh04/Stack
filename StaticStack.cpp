@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int top = -1;
-int totalCapacity = 10;
-int *arr;
+#define totalCapacity 10
+
+int top = -1;
+int arr[totalCapacity];
 
 void push (int value)
 {
@@ -37,9 +38,7 @@ void display ()
   }
 
 int main()
- { 
-
-     arr = new int [totalCapacity];
+ { 
 
     int number, value;
 
