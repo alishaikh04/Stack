@@ -19,7 +19,7 @@ void push (int value)
 
 int pop ()
 {
-    if (top == 0)
+    if (top == -1)
    {
      cout << "Stack is Empty." << endl;
      return -1;
